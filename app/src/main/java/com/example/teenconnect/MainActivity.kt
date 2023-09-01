@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.home->replaceFragment(HomeFragment())
                 R.id.search->replaceFragment(SearchFragment())
                 R.id.post->replaceFragment(PostFragment())
+                R.id.chat->replaceFragment(UsersFragment())
             }
             true
         }
