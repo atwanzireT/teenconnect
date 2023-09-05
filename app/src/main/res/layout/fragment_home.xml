@@ -35,6 +35,7 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <ImageView
+                    android:id="@+id/profileImgId"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:src="@drawable/baseline_person"
