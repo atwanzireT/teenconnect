@@ -39,6 +39,11 @@ class HomeFragment : Fragment() {
         // Inflate the layout for this fragment
         val rootView = inflater.inflate(R.layout.fragment_home, container, false)
         val profileImage = rootView.findViewById<ImageView>(R.id.profileImgId);
+        val settingImage = rootView.findViewById<ImageView>(R.id.idsettingId);
+
+        settingImage.setOnClickListener {
+            startActivity(Intent(context, SettingActivity::class.java));
+        }
         profileImage.setOnClickListener {
             startActivity(Intent(context, ProfileActivity::class.java));
         }
